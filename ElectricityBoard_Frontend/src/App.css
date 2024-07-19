@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: #f5f5f5
+}
+.btn-sm{
+  font-size:13px;
+}
+.form-control-sm{
+  padding: .375rem .75rem;
+  border-radius: var(--bs-border-radius);
+  margin: 1rem;
+}
+.form-control-sm:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: none;
+  outline: 0;
+}
+.outer-border{
+  margin: 3rem;
+/* border: 1px solid lightgrey; */
+background-color: white;
+/* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+/* box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 20px 30px; */
+}
+.datatable-layout{
+border-top: 1px solid lightgrey;
+}
+.header-layout{
+  background-color: white;
+    /* border-bottom: 1px solid lightgrey; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+.title-layout{
+  font-size: x-large;
+    font-weight: bold;
+    padding: 1rem 3rem;
+}
+.graph-layout{
+  margin-right: 3rem;
+    margin-top: 2.5rem;
+}
+.graph-button{
+  float:right;
+}
+.no-border{
+  border:none !important;
+}
+.no-border:disabled{
+  background-color: white;
+}
+.react-datepicker-wrapper:has(input.date-width) { width:100% !important; }
+
+.react-datepicker-wrapper:has(input.date-range) { float:right;padding:1rem; }
+.date-range{
+  font-size: 14px;
+}
+.header-margin{
+  margin-top: 8rem;
+}

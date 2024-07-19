@@ -1,0 +1,21 @@
+.form-control{
+    border:none;
+}
+.form-control:disabled {
+    border: 0.5px solid lightgrey;
+}
+.form-control {
+    border: 0.5px solid lightgrey;
+}
+.display-layout{
+    padding-left: 3rem;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 2rem;
+}
+.banner-color-green{
+    color:green;
+}
+.banner-color-red{
+    color:red;
+}
